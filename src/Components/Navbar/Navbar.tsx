@@ -1,16 +1,17 @@
-import React from "react";
-import { StyledNavbar } from "./StyledNavbar";
+import styles from "./Navbar.module.css";
 
 function Navbar() {
   return (
-    <StyledNavbar>
+    <nav className={styles.nav}>
       <ul>
-        <li>HOME</li>
-        <li>MY CV</li>
-        <li>PROJECTS</li>
-        <li>CONTACT ME</li>
+        <li onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+          Home
+        </li>
+        <li>My CV</li>
+        <li>Projects</li>
+        <li>Contact me</li>
       </ul>
-    </StyledNavbar>
+    </nav>
   );
 }
 

@@ -1,9 +1,8 @@
-import React from "react";
-import { StyledFooter } from "./StyledFooter";
+
 
 function Footer() {
   return (
-    <StyledFooter>
+    <footer>
       <ul>
           <li>
               <div>
@@ -21,7 +20,7 @@ function Footer() {
               </div>
           </li>              
       </ul>
-    </StyledFooter>
+    </footer>
   );
 }
 

@@ -1,0 +1,25 @@
+.main {
+  background-color: #b9b9b9ac;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+}
+.h1 {
+  font-size: 8vw;
+  transition: 0.2s;
+  margin: 0;
+}
+.h1:hover {
+  color: #710075;
+  transform: scale(1.05);
+}
+.h2 {
+  padding: 0;
+  margin: 0;
+}
+.h3 {
+  padding: 0;
+  margin: 0;
+}

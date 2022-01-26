@@ -1,13 +1,16 @@
-import React from "react";
-import { StyledMain } from "./StyledMain";
+import Cv from "../Cv/Cv";
+import Projects from "../Projects/Projects";
+import styles from "./Main.module.css";
 
 function Main() {
   return (
-    <StyledMain>
-      <main>
-          Hi there! I'm Denis Ferreyra - Full Stack Developer
-      </main>
-    </StyledMain>
+    <main className={styles.main}>
+      <h3 className={styles.h3}>Hi there! I'm</h3>
+      <h1 className={styles.h1}>DENIS FERREYRA</h1>
+      <h2 className={styles.h2}>Full Stack Developer</h2>
+      <Cv />
+      <Projects />
+    </main>
   );
 }
 

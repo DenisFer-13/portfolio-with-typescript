@@ -1,0 +1,19 @@
+.nav {
+  background-color: violet;
+  z-index: 2;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+li {
+  text-decoration: none;
+  padding: 1vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  cursor: pointer;
+}
