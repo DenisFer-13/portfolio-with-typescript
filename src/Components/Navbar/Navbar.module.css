@@ -1,5 +1,7 @@
 .nav {
+  position: fixed;
   background-color: violet;
+  width: 100%;
   z-index: 2;
 }
 ul {
